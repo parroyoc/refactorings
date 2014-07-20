@@ -1,6 +1,7 @@
 package refactorings.previous;
 
 import refactorings.util.Log;
+import refactorings.util.OtherClass;
 
 public class Entry1Duplication {
 

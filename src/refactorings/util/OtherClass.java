@@ -1,4 +1,4 @@
-package refactorings.previous;
+package refactorings.util;
 
 public class OtherClass {
 

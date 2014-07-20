@@ -1,7 +1,7 @@
 package refactorings.refactored;
 
-import refactorings.previous.OtherClass;
 import refactorings.util.Log;
+import refactorings.util.OtherClass;
 
 public class Entry1Refactored {
 
