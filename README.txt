@@ -1,0 +1,1 @@
+Code refactorings. Repository for the Blog's contents
