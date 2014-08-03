@@ -9,12 +9,12 @@ public class Entry3TemplateMethodImplementation1 extends Entry3RefactoredByAbstr
 	}
 
 	@Override
-	public int doUncommonPart1(int x) {
+	protected int doUncommonPart1(int x) {
 		return 40 / x;
 	}
 
 	@Override
-	public void doUncommonPart2(int x) {
+	protected void doUncommonPart2(int x) {
 		AnotherClass.AnotherMethod(x);
 	}
 }

@@ -6,7 +6,7 @@ import refactorings.util.YetAnotherClass;
 
 public abstract class Entry3RefactoredByAbstractTemplateMethodWithInheritance {
 
-	public int templateMethod(int x) {
+	protected int templateMethod(int x) {
 		Log.log("Part1 common");
 		OtherClass.OtherMethod(x);
 		Log.log("Part1 uncommon");
@@ -19,7 +19,7 @@ public abstract class Entry3RefactoredByAbstractTemplateMethodWithInheritance {
 		return result;
 	}
 	
-	public abstract int doUncommonPart1(int x);
+	protected abstract int doUncommonPart1(int x);
 
-	public abstract void doUncommonPart2(int x);
+	protected abstract void doUncommonPart2(int x);
 }

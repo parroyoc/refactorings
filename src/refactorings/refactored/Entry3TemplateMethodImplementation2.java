@@ -9,13 +9,13 @@ public class Entry3TemplateMethodImplementation2 extends Entry3RefactoredByAbstr
 	}
 
 	@Override
-	public int doUncommonPart1(int x) {
+	protected int doUncommonPart1(int x) {
 		AnotherClass.AnotherMethod(x);
 		return 20 / x;
 	}
 
 	@Override
-	public void doUncommonPart2(int x) {
+	protected void doUncommonPart2(int x) {
 		// Nothing here. This method could be also virtual
 	}
 }
